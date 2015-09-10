@@ -160,7 +160,7 @@ class LocalInvoice implements Invoice {
 	 * @return string
 	 */
 	private function _formatted($amount)
-	{	
+	{
 		return number_format(round(money_format('%i', $amount), 2), 2);
 	}
 }
